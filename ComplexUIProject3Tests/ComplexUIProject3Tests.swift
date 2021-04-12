@@ -8,7 +8,24 @@
 import FBSnapshotTestCase
 @testable import ComplexUIProject3
 
-class ComplexUIProject3Tests: XCTestCase {
+class ComplexUIProject3Tests: FBSnapshotTestCase {
+    
+    override func setUp() {
+        super.setUp()
+        self.recordMode = false
+        fileNameOptions = [
+            FBSnapshotTestCaseFileNameIncludeOption.OS,
+            FBSnapshotTestCaseFileNameIncludeOption.screenScale,
+            FBSnapshotTestCaseFileNameIncludeOption.screenSize,
+            FBSnapshotTestCaseFileNameIncludeOption.device
+        ]
+         //Put setup code here. This method is called before the invocation of each test method in the class.
+    }
+    
+    func testExample() {
+        let viewController: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController")
+        FBSnapshotVerifyView(viewController.view, identifier: "simpleView", perPixelTolerance: 0.0, overallTolerance: 0.0)
+    }
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -16,11 +33,6 @@ class ComplexUIProject3Tests: XCTestCase {
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testPerformanceExample() throws {
