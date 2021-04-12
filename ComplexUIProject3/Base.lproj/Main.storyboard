@@ -16,20 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CiA-bk-l8R">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q0I-QA-Fqu">
                                 <rect key="frame" x="87" y="328" width="240" height="240"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="hdm-HU-xFP"/>
-                                    <constraint firstAttribute="height" constant="240" id="qvC-J8-d56"/>
+                                    <constraint firstAttribute="height" constant="240" id="71C-pc-IU1"/>
+                                    <constraint firstAttribute="width" constant="240" id="iod-Lr-hcL"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CiA-bk-l8R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IOf-kD-2A1"/>
-                            <constraint firstItem="CiA-bk-l8R" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OvE-vv-G6D"/>
+                            <constraint firstItem="q0I-QA-Fqu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ka6-wg-JNf"/>
+                            <constraint firstItem="q0I-QA-Fqu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mt4-r3-b26"/>
                         </constraints>
                     </view>
                 </viewController>
