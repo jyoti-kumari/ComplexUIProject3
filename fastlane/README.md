@@ -36,6 +36,11 @@ fastlane ios gitpull
 fastlane ios takeCheckout
 ```
 
+### ios CodeMerge
+```
+fastlane ios CodeMerge
+```
+
 
 ----
 
