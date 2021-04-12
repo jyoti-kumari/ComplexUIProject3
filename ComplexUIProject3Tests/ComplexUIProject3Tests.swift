@@ -5,7 +5,7 @@
 //  Created by Jyoti Kumari 2 on 4/12/21.
 //
 
-import XCTest
+import FBSnapshotTestCase
 @testable import ComplexUIProject3
 
 class ComplexUIProject3Tests: XCTestCase {
