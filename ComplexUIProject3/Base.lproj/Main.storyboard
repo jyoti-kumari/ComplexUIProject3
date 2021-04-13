@@ -16,11 +16,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slQ-s7-QKW">
-                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="Vya-W6-Kbd"/>
-                                    <constraint firstAttribute="height" constant="240" id="qdl-j2-2c5"/>
+                                    <constraint firstAttribute="width" constant="200" id="Vya-W6-Kbd"/>
+                                    <constraint firstAttribute="height" constant="200" id="qdl-j2-2c5"/>
                                 </constraints>
                             </view>
                         </subviews>
