@@ -39,7 +39,6 @@ lane :takeCheckout do | options |
 	else
 		UI.user_error!("Send the branch name as: <fastlane takeCheckout branchName:NewBranchName>")
 	end
-sh("git", "checkout", "-b", options[:'TestingCode -- ComplexUIProject3Tests/ReferenceImages_64'])
 end
 
 lane :CodeMerge do
