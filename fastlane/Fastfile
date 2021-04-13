@@ -40,15 +40,4 @@ lane :takeCheckout do | options |
 		UI.user_error!("Send the branch name as: <fastlane takeCheckout branchName:NewBranchName>")
 	end
 end
-
-lane :CodeMerge do
-        git checkout -b Candidate6
-        git checkout TestingCode -- ComplexUIProject3Tests/ReferenceImages_64
-        git add ComplexUIProject3Tests/ReferenceImages_64
-        git commit -m "Adding 'ComplexUIProject3Tests/ReferenceImages_64' directory from TestingCode branch."
-        git checkout --patch TestingCode ComplexUIProject3Tests/ComplexUIProject3Tests.swift
-
-
-end
-
 end
